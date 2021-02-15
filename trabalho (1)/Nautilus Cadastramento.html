@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title>Nautilus Records - Cadastramento de artistas</title>
+			<link rel="stylesheet" href="Whale.css" type="text/css">
+		</head>
+		<body>
+			<header>
+				<div>
+					<h1 class="titulo">Nautilus Records</h1>
+					<ul class="subtitulo"></ul>
+				</div>
+			</header>
+			<nav>
+					<a href="Nautilus Records.html"target="_self"> Início</a> |
+					<a href="Nautilus Artistas.html"target="_self"> Artistas</a> |
+					<a href="Nautilus Equipe.html"target="_self"> Quem somos</a> |
+					<a href="Nautilus Eventos.html"target="_self"> Eventos</a> |
+					<a href="Nautilus Cadastramento.html"target="_self">Cadastrar artista/banda</a> |
+					<a href="Nautilus Lançamentos.html"target="_self">Lançamentos</a>
+			</nav>
+			<section class="main">
+				<div>	
+					<h1 class="titulopag"> Cadastre seu artista ou banda favorito</h1>
+				</div>
+				<p class="chamada site">
+					O objetivo da Nautilus é fazer artistas queridos do público serem reconhecidos, por isso nós confiamos na palavra dos fãs para nossa seleção. Nesta página você poderá candidatar seu artista ou grupo favorito para nós da Nautilus avaliarmos se o artista bate com nosso perfil artístico. Se avaliarmos que o artista tem o que é necessário para fazer parte da equipe Nautilus, nossa equipe entrará em contato para assinar com o artista.
+				</p>
+				<section class="formulario">
+					<section class="Informações Pessoais">
+						<h2></h2>
+						<form action="mailto:rodrigomohland@hotmail.com" method="post">
+							<fieldset class="fundoform">
+								<legend class="PI">Informações pessoais</legend>		
+									<fieldset>
+										<legend>Informações gerais</legend>
+										<label for="Nome">Nome</label><br>
+										<input type="text"id="Nome"name="Nome" maxlength="100"><br>
+										<label for="NomeArt">Empresa</label><br>
+										<input type="text"id="Empr"name="Empresa" maxlength="100"><br>
+										<label for="nasc">Data de nascimento</label><br>
+										<input type="date"id="nasc"name="data"><br>
+										<label for="Horário">Horário do contato</label><br>
+										<input type="number"id="hora"name="hora" maxlength="23"> :
+										<input type="number"name="min" maxlength="59"><br>
+										<label for="ass">Assunto</label><br>
+										<input type="text"id="ass"name="assunto" maxlength="100"><br>
+										
+									</fieldset>
+									<fieldset>
+										<legend>Sexo</legend>
+										<input type="radio"id="masc"name="sexo">
+										<label for="masc">Masculino</label><br>
+										<input type="radio"id="fem"name="sexo">
+										<label for="fem">Feminino</label><br>
+										<input type="radio"id="nb"name="sexo">
+										<label for="nb">Não Binário(outro)</label><br>
+									</fieldset>
+									<fieldset>
+										<legend>Contato</legend>
+										<label for="Tel">Telefone</label><br>
+										<input type="text"id="Tel"name="Telefone" maxlength="10"><br>
+										<label for="Cel">Celular</label><br>
+										<input type="text"id="cel"name="Celular" maxlength="11"><br>
+										<label for="email">E-mail</label><br>
+										<input type="text"id="email"name="Email" maxlength="100"><br>
+									</fieldset>
+							</fieldset>
+							<fieldset class="fundoform" >
+								<legend class="PI">Informações Artista/grupo</legend>
+								<fieldset>
+									<legend >Informaçôes básicas</legend>
+										<label for="NomeArt">Nome do Artista/Grupo</label><br>
+										<input type="text"id="NomeArt"name="Nome" maxlength="100"><br>
+										<label for="genero">Quantidade de membros</label><br> 
+										<select id="genero">
+											<option value="0">Quantidade</option>
+											<option value="1">1(solo)</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6 ou mais</option>
+										</select>	<br>
+										<label for="genero">Qual das opções mais se assemelha a sonoridade da música do artista?</label><br> 
+										<select id="genero">
+											<option value="0">Gênero</option>
+											<option value="1">Eletrônica</option>
+											<option value="2">Hip-Hop</option>
+											<option value="1">Rock</option>
+											<option value="1">pop</option>
+										</select>	<br>
+										<input type="checkbox" id="esta" name="esta" >
+										<label for="esta"> Você participa da banda?</label><br>
+								</fieldset>
+								<fieldset>
+									<legend >Contatos e Demo</legend>
+									<label for="Telb">Telefone</label><br>
+										<input type="text"id="Telb"name="Telefone" maxlength="10"><br>
+										<label for="Celb">Celular</label><br>
+										<input type="text"id="celb"name="Celular" maxlength="11"><br>
+										<label for="emailb">E-mail</label><br>
+										<input type="text"id="emailb"name="Email" maxlength="100"><br>
+										<label for="demo">Deixe uma demonstração do artista(.wav ou .mp3)</label><br>
+										<input type="file"id="demo"name="demo"><br>
+										<label for="links">Coloque aqui o link do artista (Soundcloud, Beatport, Youtube)</label><br>
+										<textarea name="links"id="links"cols="50"></textarea><br>
+										<label for="message">Porque este artista/banda deveria estar na Nautilus?</label><br>
+										<textarea name="mensagem"id="message"cols="50"></textarea>
+								</fieldset>
+								<button type="submit">enviar</button>	
+								<button type="reset">limpar</button>
+							</fieldset>
+					</form>
+				</section>	
+			</section>
+			<footer>
+				<Section class="linksfoot">
+					<h1 class="titulopag fut">Links do criador:</h1>
+					<nav>
+						<a href="https://www.facebook.com"target="_blank"> Facebook</a> |
+						<a href="https://twitter.com/MilanezzRo"target="_blank"> Twitter</a> |
+					</nav>	
+				</section>
+				<section class="info">
+					<h1 class="titulopag fut baix">Informações:</h1>
+					<p>
+						Rodrigo Milanez Ohland
+					</p>
+					<p>
+					Ultima atualização: 15/10/20	
+					</p>
+				</section>
+			</footer>
+		</body>
+	</html>	

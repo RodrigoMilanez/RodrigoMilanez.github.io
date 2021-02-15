@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title>solicitação de contato</title>
+			<style>
+				
+				
+				h1{
+				 color:red;
+				}	
+				.form{
+					width:70%;
+					float:left;
+					margin-left:150px;
+					margin-top:50px;
+				}
+				
+			</style>
+		</head>
+		
+		<body>
+			<form action="mailto:contato@esucri.com.br" method="post" enctype="text/plain">
+			<section class="form">
+				<label for="Nome">Nome:</label>
+				<input type="text"id="Nome"name="Nome" maxlength="100"><br>
+				<fieldset><br>
+				<legend>Sexo:</legend>
+										<input type="radio"id="masc"name="sexo">
+										<label for="masc">Masculino</label>
+										<input type="radio"id="fem"name="sexo">
+										<label for="fem">Feminino</label>
+				</fieldset><br>
+				<label>Assunto:</label>
+										<select>
+											<option value="0">Dúvida</option>
+											<option value="1">Crítica</option>
+											<option value="2">Sugestão</option>
+										</select>	<br><br><br><br><br>
+				<label for="message">Mensagem:</label>
+				<textarea name="mensagem"id="message"cols="50"></textarea><br>
+				<button type="submit">enviar</button>	
+			</section>
+		</body>
+	</html>	

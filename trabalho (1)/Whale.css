@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+	font-family:Poppins;
+	Background-color:#212121;
+	background-image:url("imagens/bg3.jpg");
+	background-attachment:fixed;
+	color:#8B8989;	
+}
+header{
+	/*background-color:#171717;*/
+	
+	background-image:url("imagens/bg.jpg");
+	height:150px;
+	width:100%;
+	border-style:solid;
+	border-width: 1px 1px 1px 1px;
+	border-color:#8B8989;
+	
+}
+.titulo{
+	color:#0023B0;
+	text-align:center;
+	Font-size:60px;
+	
+	
+}
+
+.conteudo{
+	width:905px;
+	height:690px;
+	padding-top:10px;
+	float:left;
+	
+}
+p{
+	margin-left:30px;
+}
+.menu{
+	width:386px;
+	float:left;
+	height:700px;
+	background-image:url("imagens/bg7.jpg");
+	background-attachment:fixed;
+	background-color:#212121;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#8B8989;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#8B8989;
+	
+}
+
+footer{
+	float:none;
+	height:150px;
+	border:solid;
+	border-width:1px;
+	background-color:#171717;
+	background-image:url("imagens/bg.jpg");
+}
+
+.titulochamada{
+	color:#0023B0; 
+	Margin-left: 10px;
+	Background-color:#171717;
+	font-size:30px;
+	border:solid black 1px 1px;
+	background-image:url("imagens/bg6.jpg");
+	background-attachment:fixed;
+}
+
+
+.chamada{
+	color:#E5E5E5; 
+	Margin-left: 10px;
+	margin-right: 10px;
+	font-size:15px;
+	text-align:justify;
+	
+}
+.site{
+	font-size:25px;
+}
+.chamadaalt{
+	color:#FFC300;
+}
+
+
+li{
+	list-style-type:none;
+	padding: 20px;
+	color:#8B8989;
+	font-size:20px;
+}
+.atencao{
+	font-size:40px;
+	color:Red;
+	text-align:center;
+}
+
+
+.aviso{
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+	color:#8B8989;	
+}
+
+a:hover{
+	color:#000CFF;
+}
+
+
+.main{
+	padding-top:10px;
+	
+}
+	
+.titulopag{
+	color:white; 
+	Margin-left: 10px;
+	text-align:center;
+	font-size:40px
+}
+
+art{
+	text-Align:center;
+}
+
+.artista{
+	border-bottom: solid white 1px;
+	border-top: solid white 1px;
+	height:360px;
+	/*background-color:#212121;*/
+} 
+img{
+	width:25%;
+	height:30%;
+	margin-top:-15px;
+	
+}
+
+
+.capa{
+	float:left;
+	margin-left:50px;
+	
+}
+
+.nomeartista{
+	text-align:center;
+	color:#FFC300;
+	Background-color:#171717;
+	font-size:30px;
+}
+
+.conteudoartista{
+}
+
+.descart{
+	color:#E5E5E5;
+	float: left;
+	margin-top:-200px;
+	margin-left:400px;
+}
+
+.soon{
+	color:#FFC300;
+}
+.linkart{
+	background-color:#212121;
+	
+}
+
+.tituloequipe{
+	color:#FFC300; 
+	Margin-left: 10px;
+	font-size:40px;
+}
+.insta{
+	font-size:20px;
+	border:solid black ;
+	border-bottom-width:1px 1px 1px 1px;
+}
+
+.linksfoot{
+		font-size:30px;
+		margin-top:-20px;
+		Float:left;
+		width:400px;
+		text-align: left;
+		
+}
+.fut{
+	text-align:left;
+	color:whites;
+	
+}
+
+.info{
+	margin-top:-40px;
+	color:white;
+}
+ 
+ .baix{
+	 margin-top:56px;
+	 margin-bottom:-10px;
+ }
+footer a{
+	color:white;
+}
+
+nav{
+	font-size:25px;
+	margin-left:100px;
+}
+
+.PI{
+	color:#FFC300;
+	font-size:20px;
+}
+fieldset{
+	background-image:url("imagens/bg7.jpg");
+	background-attachment:fixed;
+}
+.fundoform{
+	background-image:url("imagens/bg3.jpg");
+	background-attachment:fixed;
+}
+.lancamento{
+	height:500px;
+}
+table{
+	border:solid;
+	border-width: 2px 2px 2px 2px;
+	border-color:black;
+	margin-left:30px;
+}
+
+
